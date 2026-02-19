@@ -1,0 +1,147 @@
+<!-- Dispay property in css  -->
+<!-- In HTML there are three types of elements, first one is block element that takes up the entire line -->
+<!-- Regardless of how much space they actually take up They take up the entirel line  -->
+<!-- Inline block element  only takes up as much space as they needs to -->
+<!-- That means inline block element  don't take up the entire line-->
+<!-- Third one is inline element, they are basicly just text elements  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.bro</title>
+    <style>
+      .koinegsegg {
+        border-radius: 8px;
+        width: 300px;
+      }
+      .about {
+        width: 300px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .carwow {
+        color: grey;
+        font-size: 14px;
+        margin-top: 5px;
+      }
+      .views {
+        color: grey;
+        margin-top: 5px;
+        font-size: 14px;
+      }
+      .name,
+      .email {
+        display:block;
+        margin: 4px;
+      }
+      .thanks {
+        width: 200px;
+        display: inline-block;
+      }
+      .yes,
+      .no {
+        display: inline-block;
+        vertical-align: middle;
+        display: center;
+      }
+      .google {
+        display: block;
+        justify-content: center;
+        /* vertical-align: center; */
+        width: 300px;
+      }
+      .search {
+        vertical-align: center;
+        width: 400px;
+        border: 10px;
+        height: 32px;
+        border-radius: 20px;
+        border: 1px solid rgb(165, 165, 165);
+
+        box-shadow: 2px 2px 2px rgba(10, 10, 15, 0.45);
+        display: block;
+      }
+      .first,
+      .name {
+        margin-top: 10px;
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+        border-radius: 8px;
+        padding-left: 8px;
+        border-color: rgb(205, 203, 203);
+        border-width: 2px;
+      }
+      .email {
+        width: 222px;
+        height: 30px;
+        border-radius: 8px;
+        margin-left: 2px;
+        padding-left: 5px;
+        border-color: rgb(205, 203, 203);
+      }
+      .sign {
+        padding: 9px 87px;
+        border-radius: 8px;
+        background-color: rgb(30, 103, 205);
+        color: white;
+        font-size: large;
+        border:none;
+        margin-top: 5px;
+      }
+      .request {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+      }
+      .location,
+      .destination {
+        width: 250px;
+        display: block;
+        margin: 5px;
+        border-color:  rgb(205, 203, 203);
+        border: none;
+        background: rgb(211, 208, 212);
+        padding: 10px;
+        font-size: 8px;
+      }
+      .now {
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        margin-right: 8px;
+        margin-top: 10px;
+        margin-left: 5px;
+      }
+      .later {
+        padding: 10px;
+        background-color: rgb(228, 211, 241);
+        border: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <img class="koinegsegg" src="htmlpictures/koinegsegg.avif">
+    <p class="about"><strong>Koinegsegg</strong> Jesko v <strong>Bugatti</strong>Chiron Super Sport: DRAG RACE</p>
+    <p class="carwow">carwow</p>
+    <p class="views">12M views &#183; 11 month ago</p>
+    <input class="name" type="text" placeholder="Name">
+    <input class="email" type="text" placeholder="Email">
+    <p class=thanks>Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <button class="yes">Yes</button>
+    <button class="no">No</button>
+    <img class="google" src="htmlpictures/google.png">
+    <input class="search" type="text" placeholder="Search Google or type a URL">
+    <input class="first" type="text" placeholder="First name" >
+    <input class="name" type="text" placeholder="First name" >
+    <input class="email" type="text" placeholder="Email" >
+    <button class="sign">Sign up</button>
+    <p class="request">Request a ride now</p>
+    <input class="location" type="text" placeholder="Enter pickup location">
+    <input class="destination" type="text" placeholder="Enter destination">
+    <button class="now">Request now</button>
+    <button class="later">Schedule for later</button>
+  </body>
+</html>
